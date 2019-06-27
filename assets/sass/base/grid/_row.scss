@@ -1,0 +1,11 @@
+.container,
+.container-fluid {
+
+  .row {
+    border: 2px solid lighten($black, 50%);
+    display: grid;
+    padding: 5px;
+    grid-template-columns: repeat($number-columns, 1fr);
+    grid-gap: 10px;
+  }
+}
